@@ -75,6 +75,6 @@ class UsersController extends Controller
         
         $data += $this->counts($user);
         
-        return view('microposts.favorites', $data);
+        return view('users.favorites', $data);
     }
 }
